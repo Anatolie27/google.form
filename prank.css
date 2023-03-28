@@ -1,0 +1,25 @@
+#my-video {
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+#my-text{
+    text-align: center;
+    font-size: 30px;
+    color: mediumslateblue;
+}
+#my-video {
+    width: 100%;
+    /* set the width to 100% of its container */
+    height: auto;
+    /* set the height to auto to maintain aspect ratio */
+}
+
+@media screen and (max-width: 480px) {
+    #my-video {
+        width: 100%;
+        /* set the width to 100% of its container */
+        height: auto;
+        /* set the height to auto to maintain aspect ratio */
+    }
+}
